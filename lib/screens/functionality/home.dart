@@ -9,13 +9,14 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
+  Color customRed = Color.fromRGBO(238, 51, 48, 1);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-          backgroundColor: Colors.red[50],
           appBar: AppBar(
             title: Text("cross_platform_store_template"),
-            backgroundColor: Colors.red[400],
+            backgroundColor: customRed,
             elevation: 0.0,
             actions: <Widget>[
               Padding(
